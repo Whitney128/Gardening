@@ -11,6 +11,57 @@
   box-sizing: border-box;
 }
 
+body{
+          background-image:url('https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');">
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+      }
+      .navbar{
+          background-color: rgb(134, 218, 134); 
+          font-size: 15px;
+          list-style: none; 
+      }
+      .nav-item{
+          list-style: none; 
+          display: flex;
+          display: inline-block;
+          padding: 5px 15px;
+      }
+      
+      a{
+          color: white;
+          font-size: 24px; 
+      }
+      .nav-link:hover{
+          background-color:White !important;
+      }
+      .header {
+          padding: 10px;
+          height: 100px;
+          text-align: center;
+          background: darkgreen;
+          color: white;
+          font-size: 40px;
+      }
+    .box {
+      background-color: black;
+      width: 950px;
+      border: 10px solid green;
+      padding: 5px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+    }
+    p{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    }
+
 #myInput {
   background-image: url('https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
   background-position: 10px 10px;
@@ -27,19 +78,22 @@
   width: 100%;
   border: 1px solid #ddd;
   font-size: 18px;
+  color: white;
 }
 
 #myTable th, #myTable td {
   text-align: left;
   padding: 12px;
+  color: white;
 }
 
 #myTable tr {
   border-bottom: 1px solid #ddd;
+  color: white;
 }
 
 #myTable tr.header, #myTable tr:hover {
-  background-color: #f1f1f1;
+  background-color: blue;
 }
 </style>
 </head>
@@ -55,6 +109,9 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="{{url_for('PlantType_chart')}}">Visualizations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{url_for('Data')}}">Data</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="{{url_for('State')}}">Map</a>
@@ -663,26 +720,42 @@ Transplant directly in the ground any time after mid-May every 12 to 16 inches (
   <tr>
     <td>Rose</td>
     <td>Flower</td>
+    <td>Planting your bare-root or container roses properly will ensure they get off to a good start.
+The planting hole needs to be deep enough and wide enough to accommodate the plant’s roots. The area needs to have good drainage, since roses don’t like wet feet.
+Mix a generous amount of garden compost, peat moss, or other organic matter with the soil that was removed from the planting hole. Use some of this mixture at the bottom of the planting hole and place the rose bush in the hole.
+The plant’s crown should be at ground level in mild climates, and 2 to 3 inches below ground level for cold climates.
+Fill the hole partially with the soil mixture and add a slow-release fertilizer.
+Water thoroughly, and then finish filling the hole with the remaining soil.
+Water again, then mound loose soil around the canes to protect the rose while it acclimates to its new site.
+If you’re planting several rose bushes together, space them at least 3 feet apart to allow ample growing room as they mature.</td>
   </tr>
   <tr>
     <td>Sea Lavender</td>
     <td>Flower</td>
+    <td>Image result for garden tips for sea lavender
+Sea lavender plants need soil moisture and do their best in well-drained garden soils. The plants also grow well in sandy soil and tolerate heavy clay soils. Poor drainage may lead to root and crown rot. As for transplanting, there is no need.</td>
   </tr>
   <tr>
     <td>Shirley Poppy</td>
     <td>Flower</td>
+    <td>Sow seeds directly into a finely textured garden bed in full sun as early in spring as ground can be worked. To help space these small seeds, it's helpful to mix them with dry sand before sowing. Cover very lightly with fine soil and keep seed bed moist as seedlings emerge over 10 to 21 days.</td>
   </tr>
   <tr>
     <td>Snapdragon</td>
     <td>Flower</td>
+    <td>Snapdragons bloom best in well-drained, moist soil, in cool late-spring or early-summer temperatures. ...
+Snapdragons tend to stop producing flowers when hot weather arrives, but they will usually re-bloom when the weather cools off in late summer if you cut back the spent flower stalks.</td>
   </tr>
   <tr>
     <td>Sunflower</td>
     <td>Flower</td>
+    <td>Space seeds about 6 inches apart in a shallow trench between 1 and 2 inches deep. In sandy soil, 2 inches deep is better. Cover and keep watered until seeds sprout in 7 to 10 days. When first true leaves appear (the second set of leaves); thin plants to about 2 feet apart.</td>
   </tr>
   <tr>
     <td>Tithonia</td>
     <td>Flower</td>
+    <td>Image result for garden tips for tithonia
+Tithonia grows best in full sun in poor to average, well-drained soil. Avoid planting in rich soil or heavy fertilization that with promote excess foliage and weak stems. Pinch back plants to encourage bushier growth. Sturdier plants are less likely to fall over but plants often need to be staked to remain upright.</td>
   </tr>
   <tr>
     <td>Tulip</td>
