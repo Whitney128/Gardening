@@ -3,7 +3,7 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>new</title>
+    <title>about</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> 
     <link rel="stylesheet" type="text/css" href="../static/css/style.css">
 <style>
@@ -12,6 +12,7 @@
 }
 
 body{
+          width:60%;
           background-image:url('https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');">
           background-repeat: no-repeat;
           background-attachment: fixed;
@@ -130,7 +131,6 @@ body{
     <th style="height:30%; width:15%;">Plant Name</th>
     <th style="width:15%;">Plant Type</th>
     <th style="width:15%;">growing tips</th>
-    <th style="width:15%;">image</th>
   </tr>
     <tr>
     <td>Lemon Balm</td>
@@ -141,7 +141,6 @@ Start the growing season off right by mixing several inches of aged compost or o
 Check soil moisture every few days and water when the top inch becomes dry.
 Maximize leaf production by regularly feeding with water-soluble plant food.
 Harvest lemon balm leaves anytime once your plant reaches 6 to 8 inches tall; avoid harvesting more than one-third of the plant at a time.</td>
-    <td> <img src="{{url_for('static', filename='image/lemon-balm.jpg')}}"> </td>
   </tr>
 
   <tr>
@@ -153,7 +152,6 @@ Given its height (2-4 feet), bee balm makes for an excellent background plant in
 Space plants 18-24 inches apart in rich, well-draining soil.
 Bee balm needs good air circulation, otherwise it can develop powdery mildew on its leaves.
 Water thoroughly at the time of planting.</td>
-    <td> <img class="panel" src="images/lemon-balm.jpg" alt="Liz"> </td>
   </tr>
   <tr>
     <td>Boneset</td>
@@ -1519,8 +1517,6 @@ Pick at the Pinnacle of Ripeness.
     <td>Plant spinach seeds an inch apart in rows 14-18 inches apart and cover the seeds with a 1/2 inch of soil. Keep the soil moist and after the seeds germinate thin them to stand 3-5 inches apart. Most gardeners like to do this in several passes to determine the strongest plants to save.</td>
   </tr>
 </table>
-  <p>GardeningKnowhow.com was very helpful in finding gardening tips for this project and a great reference for more info!.</p>
-
 <script>
 function myFunction() {
   var input, filter, table, tr, td, i, txtValue;
@@ -1541,6 +1537,10 @@ function myFunction() {
   }
 }
 </script>
-
+<div class="container">
+      <div class="header">
+       <h2>GardeningKnowhow.com is a great reference for additional tips/images</h2>
+      </div>
+    </div>
 </body>
 </html>
