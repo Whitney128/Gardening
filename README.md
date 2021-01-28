@@ -1,4 +1,7 @@
 ## Gardening
+
+Collaborated with a group of three. Liz, Julie and myself.
+
 This website was created to help people find the best plants for them depending on what they are looking for from answering 6 questions. 
 
 You can choose from State, Season, Plant Type,Sun Needs, Soil Needs and features. 
